@@ -33,4 +33,11 @@ var li =document.getElementsByTagName('li')
 li[4].style.backgroundColor='#f4f4f4';
 items[1].style.color = 'red';
 items[1].style.backgroundColor='green';
-items[1].style.Color='whitw'
+items[2].style.color='green';
+
+var odd=document.querySelectorAll('li:nth-child(odd');
+
+for(var i=0;i<odd.length;i++)
+{
+    odd[i].style.backgroundColor='green';
+}
