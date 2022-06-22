@@ -33,3 +33,4 @@ var li =document.getElementsByTagName('li')
 li[4].style.backgroundColor='#f4f4f4';
 items[1].style.color = 'red';
 items[1].style.backgroundColor='green';
+items[1].style.Color='whitw'
