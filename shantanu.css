@@ -1,0 +1,18 @@
+
+.container {margin: auto;
+    height: 400px;
+    position:relative;
+    width: 1020px;
+    border: 3px solid red
+
+}
+button{
+    background-color:orange
+}
+body{
+    background-image: url(https://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-2048x1365.jpg);
+    
+}
+.btn1{
+    background-color:pink
+}

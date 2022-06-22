@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>const person={</p><p>    firstName:'shantanu',</p><p>    lastName:'tadas',</p><p>    age:'27',</p><p>    hobbies:['music','movies','sports'],</p><p>    address: {</p><p>        street:'yashwanth colony',</p><p>        city:'wardha',</p><p>        state:'maharashtra'</p><p>    }</p><p>    }</p><p>console.log(person.hobbies[1])</p><p><br></p><p><br></p><p>const {address: {state}}=person;</p><p>console.log(state);</p><p>//destructor</p><p>person.age ='26';</p><p>console.log(person); </p><p>person.state='gujrat';</p><p>console.log(person);</p><p><br></p><p><br></p><p>const todos=[</p><p>    {</p><p>        id: 1,</p><p>        text:'sharpner is the great learning platform',</p><p>        iscompleted:true</p><p>    },</p><p>    {</p><p>        id:2,</p><p>        text:'sharpner allow pay after placement',</p><p>        iscompleted:true</p><p>    },</p><p>    {</p><p>        id:3,</p><p>        text:'dentist appt',</p><p>        iscompleted:false</p><p>    }</p><p>    //loop</p><p>];</p><p>console.log(todos); </p><p><br></p><p>for(var i=0;i<todos.length;i++)</p><p>{</p><p>    console.log(todos[i].id);</p><p>}</p><p><br></p><p><br></p><p>var i=0;</p><p>while(i<todos.length)</p><p>{</p><p>    console.log(todos[i].id);</p><p>}</p><p>i++;</p>
+</body>
+</html>
